@@ -1,0 +1,215 @@
+@import 'general';
+
+body{
+    font-size:14px;
+    font-family: $raleway;
+    color: $paleB;
+    background-color: $veryDarkB;
+    background-image: url('../images/bg-desktop.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 110vh;
+    
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.left-section{
+    box-shadow:-1px 0px 21px 0px $veryDarkB;
+    background-color: $darkB;
+    padding:40px 120px 40px 40px;
+    border-radius: 10px 100px 10px 10px;
+
+    
+    .items{
+        
+        display:flex;
+        cursor:pointer;
+
+       
+        .files{
+            background-color: $veryDarkB;
+            padding:10px;
+            margin: 30px 15px 0px 0px;
+            border-radius:8px;
+            width: 45px;
+            height: 45px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+}
+
+
+.right-section{
+    box-shadow:-1px 0px 21px 0px $veryDarkB;
+    position: relative;
+    margin-top:37px;
+    background-color: $darkB;
+    margin-left:25px;
+    padding:40px;
+    border-radius: 10px;
+    .gb-used {
+
+        color:$paleB;
+        font-weight: 400;
+
+        span{
+            font-weight: 700;
+        }
+    }
+
+
+    .bar{
+
+        background-color:$veryDarkB;
+        height:20px;
+        width:450px;
+        margin:20px 0px 10px 0px;
+        border: 3px solid $veryDarkB;
+        border-radius:8px;
+
+
+        &-progress{
+            
+            background: linear-gradient($gradient);
+            height: 100%;
+            width: 81.5%;
+            display:flex;
+            border-radius:8px;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        &-ball{
+            width: 11px;
+            height: 11px;
+            border-radius:7px;
+            background-color:$paleB;
+            margin-right:2px;
+        }
+    }
+
+    .gb-total{
+        display:flex;
+        justify-content: space-between;
+        
+        p{
+            font-weight: 700;
+        }
+    }
+
+    .gb-to-use{
+
+        position: absolute;
+        right: 42px;
+        top: -50px;
+        background-color: white;
+        padding: 15px;
+        border-radius: 10px 10px 0 10px;
+        font-weight: 700;
+        font-size: 10px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        
+        .count{
+            color: $veryDarkB;
+            font-size:40px;
+        }
+
+        .text{
+            
+            color: $grayishB;
+            text-transform: uppercase;
+            margin-left: 10px;
+            letter-spacing: .8px;
+        }
+
+        .triangle{
+            
+            width: 0;
+            height: 0;
+            border-right: 15px solid white;
+            border-top: 15px solid white;
+            border-left: 15px solid transparent;
+            border-bottom: 15px solid transparent;
+            position: absolute;
+            right: 0;
+            bottom: -20px;
+        }
+    }
+
+
+
+
+}
+
+
+
+@media screen and (max-width:899px){
+    body{
+        background-image: url('../images/bg-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .container{
+        display:flex;
+        flex-direction: column;
+       
+    }
+
+
+    .left-section{
+        width: calc(100% - 50px);
+       
+    }
+
+    .right-section{
+        width: calc(100% - 50px);
+        margin-left:0;
+        
+
+        .gb-used{
+            text-align: center;
+        }
+
+        .bar{
+            width:100%;
+        }
+
+
+        .gb-total{
+            margin-bottom:20px;
+        }
+
+        .gb-to-use{
+
+            border-radius:10px;
+            top:auto;
+            right:auto;
+            left:50%;
+            transform: translate(-50%);
+            padding:15px 25px;
+
+            .triangle{
+                display:none;
+            }
+        }
+        
+    }
+    
+}

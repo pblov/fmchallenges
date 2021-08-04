@@ -1,0 +1,18 @@
+$paleB: hsl(243, 100%, 93%);
+$grayishB: hsl(229, 7%, 55%);
+$darkB: hsl(228, 56%, 26%);
+$veryDarkB: hsl(229, 57%, 11%);
+$gradient: to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%);
+$raleway: 'Raleway', sans-serif;
+
+
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    margin:0;
+    padding:0;
+    box-sizing:inherit;
+}
