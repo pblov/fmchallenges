@@ -20,8 +20,8 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Frontendmentor](https://github.com/pblov/fmchallenges/tree/main/02-fylo-data-storage-component)
-- Live Site URL: [Live site](https://pblov02-fylodatastorage.netlify.app)
+- Solution URL: [Frontendmentor](https://github.com/pblov/fmchallenges/tree/main/03-fylo-dark-theme-landing-page)
+- Live Site URL: [Live site](https://pblov02-fylodarktheme-landingpage.netlify.app)
 
 ## My process
 
