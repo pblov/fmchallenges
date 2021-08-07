@@ -1,0 +1,512 @@
+@import 'variables';
+@import 'generalconfig';
+@import 'mixin';
+@import 'navbar';
+
+
+
+
+
+/*Section 1*/
+
+.section1{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    background: url('../images/bg-curvy-desktop.svg') bottom no-repeat;
+    background-size:100% 290px;
+    background-color: $dbIntroEmail;
+
+    &__img{
+        
+        margin-top:30px;
+        max-width: 80%;
+    
+    }
+
+    &__title{
+
+        
+        font-family: $fontHeaders;
+        margin-top:30px;
+        font-size:32px;
+        font-weight: 700;
+        width:720px;
+        line-height: 1.6;
+    }
+
+    &__subtitle{
+        
+        margin-top:30px;
+        line-height: 1.6;
+        font-weight: 400;
+        font-size:16px;
+        width:720px;
+        padding:0px 100px;
+    }
+
+    &__button{
+           
+        cursor:pointer;
+        margin-top:30px;
+        border:none;
+        border-radius:30px;
+        font-weight: 700;
+        color:$white;
+        padding:18px 90px;
+        background: linear-gradient(to right,$cyan,$blue);
+
+                font-size: 14px;
+    }
+
+
+
+}
+
+
+/*Section 2*/
+.section2{
+
+    line-height: 1.6;
+    margin-top:120px;
+  
+    &__child{
+
+       
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+       
+        .box{
+           
+            margin:0 75px 75px 75px;
+            width: 400px;
+            height:300px;
+            display:flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            padding:8px 20px;
+
+
+            h3{
+                font-family: $fontHeaders;
+                font-size:18px;
+                margin:25px 0px 15px 0px;
+            }
+
+            p{
+
+                font-size:14px;
+            }
+
+            
+        }
+
+    }
+}
+
+/*section3*/
+.section3{
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	padding: 50px;
+
+
+    &__img{
+        
+		img {
+			width: 100%;
+		}
+		
+    }
+
+
+    &__productive{
+
+        max-width: 80%;
+		width: 500px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+        line-height: 1.6;
+
+        h2{
+            font-family: $fontHeaders;
+            font-size:30px;
+            width:300px;
+           
+        }
+
+        a{
+            color:$cyan;
+            border-bottom:1px solid $cyan;
+            padding-bottom:5px;
+            width: 130px;
+            
+            &:hover{
+                @include darknessHover($cyan,20);
+            }
+
+           
+        }
+
+    }
+}
+
+
+/*section4*/
+
+.section4{
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+    gap:33px;
+    line-height: 1.6;
+    padding:0px 33px;
+
+    &__testimonial{
+        background-color: $dbTestimonials;
+        border-radius:5px;
+        border:7px solid darken($color: $dbTestimonials, $amount: 3);
+        max-width:400px;
+        padding:35px 20px 20px 20px;
+        position: relative;
+
+        .quotes{
+            top:-35px;
+            left:-20px;
+            z-index: 1;
+            position:absolute;
+          
+        }
+
+        .information{
+           
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top:50px;
+            &__img{
+                border-radius: 100px;
+                max-width: 15%;
+            }
+            
+            &__author{
+                padding-left:10px;
+                
+                p{
+                    font-family: $fontHeaders;
+                    font-weight: 700;
+                }
+                span{
+                    color: darken($color: $white, $amount: 35);
+                    font-size:12px;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+//section5
+
+.section5{
+
+    margin-top:150px;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    
+    &__access{
+        
+        width: 90%;
+        display:flex;
+        align-items: center;
+        box-shadow: 2px 6px 10px 6px darken($color: $dbMain, $amount: 4);
+        flex-direction: column;
+        text-align: center;
+        gap:40px;
+        border-radius:8px;
+        background-color: $dbIntroEmail;
+        max-width:850px;
+        padding:40px 50px;
+
+        h2{
+            font-size:24px;
+            font-family: $fontHeaders;
+        }
+        p{
+            width:80%;
+        }
+
+        .contact{
+            
+            display:flex;
+            flex-direction: row;
+            gap:20px;
+            width:100%;
+
+            &__input{
+                border:none;
+                border-radius:25px;
+                padding:15px;
+                width:100%;
+                &::placeholder{
+                    color:darken($color: $white, $amount: 20);
+                }
+
+                &:focus{
+                    outline:none;
+                }
+                
+            }
+
+            &__button{
+                cursor:pointer;
+                background:linear-gradient(to right,$cyan,$blue);
+                border:none;
+                border-radius:25px;
+                width: 40%;
+                color:$white;
+                font-weight: 700;
+                font-size: 14px;
+            }
+
+        }
+    }
+}
+
+// section6 - footer
+
+.content-footer{
+ 
+    position: relative;
+    z-index:-1;
+
+
+}
+
+.footer{
+        
+    line-height: 1.6;
+    z-index: -1;
+    top:-200px;
+    position:absolute;
+    background-color: $dbFooter;
+    padding: 300px 50px 100px 50px;
+    width:100%;
+    gap: 60px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+    &__location{
+        display:flex;
+        flex-direction: column;
+        width:370px;
+        gap:15px;
+
+        .logof{
+            top: 100px;
+            position: absolute;
+        }
+
+      .locationf{
+          display:flex;
+          flex-direction: row;
+          gap:15px;
+
+          img{
+            margin-top:5px;
+            width:10%;
+            height:10%;
+        }
+
+      }
+    }
+
+    &__number{
+       
+        display:flex;
+        flex-direction: column;
+        gap:15px;
+    
+        .phone, .email{
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            gap:15px;
+            
+            img{
+                
+                width:10%;
+                height:10%;
+            }
+        }
+    }
+
+
+    &__about, &__contact{
+    
+        width: 100px;
+        display:flex;
+        flex-direction: column;
+        gap:15px;
+        a:hover{
+            @include darknessHover($cyan,20);
+        }
+    }
+
+
+    &__icons{
+      
+        display:flex;
+        gap:15px;
+        img{
+            cursor: pointer;
+            width:30px;
+            height:30px;
+        }
+    }
+    
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px)  {
+
+    //navbar
+
+    .navbar{
+        padding: 30px;
+
+        &__logo{
+            padding-left:10px;
+            img{
+                max-width: 70%;
+                width:120px;
+            }
+        }
+
+        &__items{
+            a{
+                padding-right:10px;
+            }
+        }
+
+    }
+
+    //section1
+    .section1{
+    
+  
+        &__title,
+        &__subtitle{
+            
+            width:100%;
+            padding:0px 20px;
+        }
+
+        &__button{
+            margin-top:30px;
+        }
+
+      
+
+    }
+
+
+    //section2
+    .section2__child{
+        flex-direction: column;
+        .box{  
+            margin:0px;
+            width:100%;
+            padding:40px;
+        }
+    }
+
+    //section3
+
+    .section3{
+        flex-direction: column;
+        margin-top:100px;
+        padding: 20px;
+
+     
+        &__productive{
+
+           
+            h2{
+                width: 100%;
+                font-size:18px;
+            }
+
+        }
+    }
+    
+    //section4
+
+
+    .section4{
+        margin:200px 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    //section5
+
+    .section5__access{
+        padding:30px;
+        p,h2{
+            width: 100%;
+        }
+        .contact{
+            flex-direction: column;
+            &__button{
+                padding:15px;
+                width: 100%;
+            }
+        }
+    }
+
+    //section6 - footer
+    .footer{
+
+        top:-250px;
+        padding: 350px 50px 100px 50px;
+        flex-direction: column;
+
+        &__location{
+            width:100%;
+            .logof{
+                top:130px;
+            }
+        }
+
+        &__icons{
+            margin:0 auto;
+        }
+    }
+    
+   
+}

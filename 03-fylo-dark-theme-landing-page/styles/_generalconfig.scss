@@ -1,0 +1,29 @@
+
+html{
+    box-sizing: border-box;
+    
+}
+
+*, *:before, *:after{
+    margin:0;
+    padding:0;
+    box-sizing:inherit;
+    
+}
+
+body{
+    color:$white;
+    background-color: $dbMain;
+    font-size:14px;
+    font-family:$fontBody;
+}
+
+
+
+a{
+    color:$white;
+    text-decoration:none;
+    display:inline-block;
+}
+
+

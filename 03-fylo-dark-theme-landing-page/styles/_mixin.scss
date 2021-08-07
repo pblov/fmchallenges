@@ -1,0 +1,6 @@
+@mixin darknessHover($color, $amount){
+    color: darken($color: $color, $amount: $amount);
+    border-color: darken($color: $color, $amount: $amount);
+    transform: translate(0px,3px);
+    transition: .3s ease-out;
+}

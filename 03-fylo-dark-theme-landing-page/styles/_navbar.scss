@@ -1,0 +1,41 @@
+
+.navbar{
+
+    font-family: $fontHeaders;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 30px;
+    background-color: $dbIntroEmail;
+    width:100%;
+    
+    &__logo{
+
+        padding-left:30px;
+        
+        img{
+            width: 140px;
+            max-width: 80%;
+        }
+
+    }
+
+    &__items{
+
+        a{
+        
+            padding-right:30px;
+
+            &:hover{
+                @include darknessHover($cyan,30);
+            }
+        }
+
+
+    }
+    
+        
+
+}
+
+    
