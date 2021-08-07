@@ -20,7 +20,7 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Frontendmentor](https://github.com/pblov/fmchallenges/tree/main/03-fylo-dark-theme-landing-page)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-html-sass-1V9X7MwnV)
 - Live Site URL: [Live site](https://pblov02-fylodarktheme-landingpage.netlify.app)
 
 ## My process
