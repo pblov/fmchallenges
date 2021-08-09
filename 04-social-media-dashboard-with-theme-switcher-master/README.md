@@ -20,8 +20,8 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ### Links
 
-- Solution URL: [Frontendmentor](https://github.com/pblov/fmchallenges/tree/main/02-fylo-data-storage-component)
-- Live Site URL: [Live site](https://pblov02-fylodatastorage.netlify.app)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-r-NnYzm12)
+- Live Site URL: [Live site](https://pblov04-socialmedia-dashboard.netlify.app)
 
 ## My process
 
