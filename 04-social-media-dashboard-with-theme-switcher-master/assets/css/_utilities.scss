@@ -1,0 +1,76 @@
+
+//Status & percents
+
+.up{
+	font-weight: 700;
+	color:$limeGreen !important;
+}
+
+.down{
+	font-weight: 700;
+	color:$brightRed !important;
+}
+
+//Border top cards
+
+.fb{
+	border-top: 5px solid $facebook;
+}
+
+.ig{
+	
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-image: $instagram;
+	border-image-slice: 1;
+
+}
+
+.yt{
+	border-top: 5px solid $youtube;
+}
+
+.tw{
+	border-top: 5px solid $twitter;
+}
+
+
+//Hover cards
+.bg-card-dark{
+	&:hover{
+		
+		background-color: lighten($color: $dcardBG, $amount: 5)  !important;
+	}
+}
+
+.bg-card-light{
+
+
+
+	&:hover{
+		background-color: darken($color: $lcardBG, $amount: 10) !important;
+	}
+}
+
+//Main titles
+
+.text-dark{
+	color:$dgeneralText;
+}
+
+
+
+.secondary-text-dark{
+	color:$dtext;
+}
+
+.secondary-text-light{
+	color: $ltext;
+}
+
+
+//Random 
+
+#panel2{
+	margin-top: 30px;
+}

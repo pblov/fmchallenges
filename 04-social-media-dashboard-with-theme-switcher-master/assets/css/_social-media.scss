@@ -1,0 +1,131 @@
+.social-media{
+	display: flex;
+	flex-direction: column;
+
+	&__dashboard{
+		display: flex;
+		justify-content: space-between;
+		
+		.title{
+			p{
+				font-weight: 700;
+				font-size:28px;
+			}
+			span{
+				font-weight: 700;
+			}
+
+		}
+
+		.darkmode{
+			display:flex;
+			align-items: center;
+			gap:10px;
+		
+			p{
+				font-weight: 700;
+			}
+
+			.toggleBtn{
+
+			
+				input[type="checkbox"]{
+					display:none;
+				}
+
+			
+				.bgBall{
+
+					display: flex;
+					align-items: center;					
+					width:45px;
+					height: 24px;
+					border-radius:20px;
+					cursor: pointer;
+					background: $dToggle;
+
+					.ball{
+				
+						margin:2px;
+						width:20px;
+						height:20px;
+						border-radius: 50%;
+						background-color: $dgeneralBG;
+						transition: all .5s ease;
+	
+					}
+				}
+
+
+			}
+		}
+	}
+
+
+	&__content{
+		margin-top:50px;
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap:30px;
+
+
+		.card{
+
+			box-shadow: 1px 1px 15px 4px hsl(0, 2%, 10%);
+			cursor: pointer;
+			transition: all .5s ease;
+			flex:1;
+			background-color: $dcardBG;
+			padding:50px 60px;
+			border-radius:5px;
+			
+			
+			
+			&__name{
+				display:flex;
+				justify-content: center;
+				font-weight: 700;
+				margin-bottom:20px;
+				gap:10px;
+				img{
+					width:20px;
+					height: 20px;
+				}
+			}
+
+			&__followers{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				p:first-child{
+					font-size:60px;
+					font-weight: 700;
+				}
+				
+				p:last-child{
+					text-transform: uppercase;
+					letter-spacing: 5px;
+				}
+
+			}
+
+			&__status{
+				display:flex;
+				justify-content: center;
+				align-items: center;
+				gap:5px;
+				margin-top:20px;
+
+				img{
+					width:8px;
+					height: 8px;
+				}
+
+			}
+		}
+
+	}
+
+}

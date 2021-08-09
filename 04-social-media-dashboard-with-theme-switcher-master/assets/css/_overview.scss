@@ -1,0 +1,77 @@
+
+.overview{
+
+	display:flex;
+	flex-direction: column;
+	margin-top:50px;
+	
+	
+	.title{
+		p{
+	
+			font-weight: 700;
+			font-size:28px;
+		}
+	}
+
+	&__panel{
+
+		margin-top:50px;
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		gap: 30px;
+
+		.card-overview{
+			box-shadow: 1px 1px 15px 4px hsl(0, 2%, 10%);
+			cursor: pointer;
+			transition: all .5s ease;
+			flex:1;
+			background-color: $dcardBG;
+			padding:30px;
+			border-radius:5px;
+		
+			&__top{
+				display:flex;
+				justify-content: space-between;
+				align-items: center;
+		
+				p{
+					
+					font-weight: 700;
+				}
+				img{
+					height: 20px;
+					width: 20px;
+				}
+			}
+
+			&__bottom{
+				margin-top:30px;
+				display:flex;
+				justify-content: space-between;
+				align-items: center;
+				p{
+					font-size:32px;
+					font-weight: 700;
+				}
+
+				.percent{
+					display:flex;
+					gap:5px;
+					align-items: center;
+					img{
+						width:8px;
+						height: 8px;
+					}
+					p{
+						font-size:14px;
+					}
+				}
+			}
+
+		}
+	}
+
+}
