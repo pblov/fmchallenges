@@ -1,0 +1,66 @@
+/////////////////// Theme 1 ///////////////////
+
+//Backgrounds
+$t1_mainBG: hsl(222, 26%, 31%);
+$t1_toggleBG: hsl(223, 31%, 20%);
+$t1_screenBG: hsl(224, 36%, 15%);
+//Keys
+$t1_keyBlueBG: hsl(225, 21%, 49%);
+$t1_keyBlueShadow: hsl(224, 28%, 35%);
+$t1_keyRedBGToggle: hsl(6, 63%, 50%);
+$t1_keyRedShadow: hsl(6, 70%, 34%);
+$t1_keyLightOrangeBG: hsl(30, 25%, 89%);
+$t1_keyOrangeShadow: hsl(28, 16%, 65%);
+//Text
+$t1_textGrayishBlue: hsl(221, 14%, 31%);
+$t1_textWhite: hsl(0, 0, 100%);
+
+
+/////////////////// Theme 2 ///////////////////
+
+//Backgrounds 
+$t2_mainBG: hsl(0, 0%, 90%);
+$t2_toggleBG: hsl(0, 5%, 81%);
+$t2_screenBG:  hsl(0, 0%, 93%);
+//Keys
+$t2_keyCyanBG: hsl(185, 42%, 37%);
+$t2_keyCyanShadow: hsl(185, 58%, 25%);
+$t2_keyOrangeBGToggle: hsl(25, 98%, 40%);
+$t2_keyOrangeShadow: hsl(25, 99%, 27%);
+$t2_keyLightYellowBG: hsl(45, 7%, 89%);
+$t2_keyGrayishOrangeShadow: hsl(35, 11%, 61%);
+//Text
+$t2_textGrayishYellow: hsl(60, 10%, 19%);
+$t2_textWhite: hsl(0, 0, 100%);
+
+
+/////////////////// Theme 3 ///////////////////
+
+//Backgrounds 
+$t3_mainBG: hsl(268, 75%, 9%);
+$t3_toggleBG: hsl(268, 71%, 12%);
+//Keys
+$t3_keyVioletBG: hsl(281, 89%, 26%);
+$t3_keyDarkMagentaShadow: hsl(290, 70%, 36%);
+$t3_keyCyanBGToggle: hsl(176, 100%, 44%);
+$t3_keyCyanShadow: hsl(177, 92%, 70%);
+$t3_keyVividMagentaShadow: hsl(281, 89%, 26%);
+$t3_keyVeryVioletBG: hsl(268, 47%, 21%);
+
+//Text
+$t3_textYellow: hsl(52, 100%, 62%);
+$t3_textBlue: hsl(198, 20%, 13%);
+$t3_textWhite: hsl(0, 0, 100%);
+
+
+//Font
+
+$fontSpartan: 'Spartan', sans-serif;
+
+//Fontsize
+
+$fontSizeNumbers: 32px;
+$fontSizeKeys: 26px;
+$fontSizeResult: 48px;
+$fontSizeDelReset: 14px;
+$fontSizeSwitch: 13px;

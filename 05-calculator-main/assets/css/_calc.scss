@@ -1,0 +1,107 @@
+
+.calc{
+    margin-top:30px;
+    padding: 30px;
+    border-radius:5px;
+
+    &__content{
+        display:flex;
+        flex-direction: column;
+        gap:25px;
+    }
+
+    &__row{
+        
+        display:flex;
+        flex-direction: row;
+        gap:25px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__number,
+    &__add,
+    &__sub,
+    &__dot,
+    &__div,
+    &__mult,
+    &__del{
+        
+        border-radius:8px;
+        flex:1;
+        height: 55px;
+        border: none;
+        cursor: pointer;
+        font-family: $fontSpartan;
+        font-size:24px;
+        line-height: 80%;
+        
+    }
+
+    &__del,
+    &__reset{
+       
+        text-transform: uppercase;
+        font-family: $fontSpartan;
+        border:none;
+        font-size:$fontSizeDelReset;
+        
+    }
+
+    &__lastrow{
+        display:flex;
+        flex-direction: row;
+        gap:25px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__reset,
+    &__result{
+        cursor: pointer;
+        height: 55px;
+        flex:1;
+        font-family: $fontSpartan;
+        font-size:$fontSizeDelReset;
+        padding:15px;
+        border:none;
+        border-radius:8px;
+    }
+
+ 
+    &__result{
+        
+        cursor:pointer;
+        font-family: $fontSpartan;
+        
+    }
+
+
+
+    
+}
+
+
+
+@media only screen and (max-width: 500px){
+    
+    .calc{
+        padding: 20px;
+
+        &__content,
+        &__row,
+        &__lastrow{
+            gap:15px;
+        }
+
+    }
+    
+
+}
+
+
+
+
+
+
+

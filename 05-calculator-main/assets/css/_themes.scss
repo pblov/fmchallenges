@@ -1,0 +1,248 @@
+
+
+
+
+//Theme 1.
+
+.theme1{
+    background-color: $t1_mainBG;
+    color:$t1_textWhite;
+    transition: all 1s ease-in-out;
+    
+.switch{
+    transition: all 1s ease-in-out;
+    &__bottomRange::-webkit-slider-runnable-track {
+        background-color: $t1_toggleBG;
+    }
+
+    &__bottomRange::-webkit-slider-thumb {
+        transition: all 1s ease-in-out;
+        background-color: $t1_keyRedBGToggle;
+
+    }
+
+}
+
+.screen{
+    &__input{
+        transition: all 1s ease-in-out;
+        color:$t1_textWhite;
+        background-color: $t1_screenBG;
+        &::placeholder{
+            color:$t1_textWhite;
+            transition: all 1s ease-in-out;
+        }
+    }  
+}
+
+.calc{
+    background-color: $t1_toggleBG;
+    transition: all 1s ease-in-out;
+    &__number,
+    &__add,
+    &__sub,
+    &__dot,
+    &__div,
+    &__mult{
+        transition: all 1s ease-in-out;
+        background-color: $t1_keyLightOrangeBG;
+        color:$t1_textGrayishBlue;
+        border-bottom: 4px solid $t1_keyOrangeShadow;
+        &:hover{
+            transition: all .2s ease-in-out;
+            border-bottom:4px solid darken($color: $t1_keyOrangeShadow, $amount: 2);
+            background-color: darken($color: $t1_keyOrangeShadow, $amount: 2);
+        }
+    }
+
+    &__del,
+    &__reset{
+        transition: all 1s ease-in-out;
+        background-color: $t1_keyBlueBG;
+        color: $t1_textWhite;
+        border-bottom: 4px solid $t1_keyBlueShadow;
+        &:hover{
+            transition: all .1s ease-in-out;
+            border-bottom:4px solid darken($color: $t1_keyBlueShadow, $amount: 3);
+            background-color: darken($color: $t1_keyBlueShadow, $amount: 3);
+        }
+    }
+
+    &__result{
+        transition: all 1s ease-in-out;
+        background-color:$t1_keyRedBGToggle;
+        border-bottom: 4px solid $t1_keyRedShadow;
+        &:hover{
+            transition: all .1s ease-in-out;
+            border-bottom:4px solid darken($color: $t1_keyRedShadow, $amount: 3);
+            background-color: darken($color: $t1_keyRedShadow, $amount: 3);
+        }
+    }
+
+}
+}
+
+//Theme 2.
+.theme2{
+    transition: all 1s ease-in-out;
+    background-color: $t2_mainBG;
+    color:$t2_textGrayishYellow;
+    
+    
+.switch{
+    transition: all 1s ease-in-out;
+    &__bottomRange::-webkit-slider-runnable-track {
+        background-color: $t2_toggleBG;
+    }
+
+    &__bottomRange::-webkit-slider-thumb {
+        transition: all 1s ease-in-out;
+        background-color: $t2_keyOrangeBGToggle;
+
+    }
+
+}
+
+.screen{
+    &__input{
+        transition: all 1s ease-in-out;
+        color:$t2_textGrayishYellow;
+        background-color: $t2_screenBG;
+        &::placeholder{
+            transition: all 1s ease-in-out;
+            color:$t2_textGrayishYellow;
+        }
+    }  
+}
+
+.calc{
+    background-color: $t2_toggleBG;
+    transition: all 1s ease-in-out;
+    &__number,
+    &__add,
+    &__sub,
+    &__dot,
+    &__div,
+    &__mult{
+        transition: all 1s ease-in-out;
+        background-color: t2_keyLightYellowBG;
+        color:$t2_textGrayishYellow;
+        border-bottom: 4px solid $t2_keyGrayishOrangeShadow;
+        &:hover{
+            transition: all .2s ease-in-out;
+            border-bottom:4px solid darken($color: $t2_keyGrayishOrangeShadow, $amount: 2);
+            background-color: darken($color: $t2_keyGrayishOrangeShadow, $amount: 2);
+        }
+    }
+
+    &__del,
+    &__reset{
+        transition: all 1s ease-in-out;
+        background-color: $t2_keyCyanBG;
+        color: $t2_textWhite;
+        border-bottom: 4px solid $t2_keyCyanShadow;
+        &:hover{
+            transition: all .1s ease-in-out;
+            border-bottom:4px solid darken($color: $t2_keyCyanShadow, $amount: 3);
+            background-color: darken($color: $t2_keyCyanShadow, $amount: 3);
+        }
+    }
+
+    &__result{
+        transition: all 1s ease-in-out;
+        background-color:$t2_keyOrangeBGToggle;
+        border-bottom: 4px solid $t2_keyOrangeShadow;
+        &:hover{
+            transition: all .1s ease-in-out;
+            border-bottom:4px solid darken($color: $t2_keyOrangeShadow, $amount: 3);
+            background-color: darken($color: $t2_keyOrangeShadow, $amount: 3);
+        }
+    }
+
+}
+}
+
+
+
+//Theme 3.
+
+.theme3{
+    transition: all 1s ease-in-out;
+    background-color: $t3_mainBG;
+    color:$t3_textYellow;
+    
+    
+.switch{
+    transition: all 1s ease-in-out;
+    &__bottomRange::-webkit-slider-runnable-track {
+        background-color: $t3_toggleBG;
+    }
+
+    &__bottomRange::-webkit-slider-thumb {
+
+        transition: all 1s ease-in-out;
+        background-color: $t3_keyCyanBGToggle;
+
+    }
+
+}
+
+.screen{
+    
+    &__input{
+        transition: all 1s ease-in-out;
+        color:$t3_textYellow;
+        background-color: $t3_toggleBG;
+        &::placeholder{
+            transition: all 1s ease-in-out;
+            color:$t3_textYellow;
+        }
+    }  
+}
+
+.calc{
+    background-color: $t3_toggleBG;
+    transition: all 1s ease-in-out;
+    &__number,
+    &__add,
+    &__sub,
+    &__dot,
+    &__div,
+    &__mult{
+        transition: all 1s ease-in-out;
+        background-color: $t3_keyVeryVioletBG;
+        color:$t3_textYellow;
+        border-bottom: 4px solid $t3_keyVividMagentaShadow;
+        &:hover{
+            transition: all .2s ease-in-out;
+            border-bottom:4px solid darken($color: $t3_keyVividMagentaShadow, $amount: 2);
+            background-color: darken($color: $t3_keyVividMagentaShadow, $amount: 2);
+        }
+    }
+
+    &__del,
+    &__reset{
+        transition: all 1s ease-in-out;
+        background-color: $t3_keyVioletBG;
+        color: $t3_textWhite;
+        border-bottom: 4px solid $t3_keyDarkMagentaShadow;
+        &:hover{
+            transition: all .1s ease-in-out;
+            border-bottom:4px solid darken($color: $t3_keyDarkMagentaShadow, $amount: 3);
+            background-color: darken($color: $t3_keyDarkMagentaShadow, $amount: 3);
+        }
+    }
+
+    &__result{
+        transition: all 1s ease-in-out;
+        background-color:$t3_keyCyanBGToggle;
+        border-bottom: 4px solid $t3_keyCyanShadow;
+        &:hover{
+            transition: all .1s ease-in-out;
+            border-bottom:4px solid darken($color: $t3_keyCyanShadow, $amount: 3);
+            background-color: darken($color: $t3_keyCyanShadow, $amount: 3);
+        }
+    }
+
+}
+}
