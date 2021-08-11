@@ -312,6 +312,7 @@ body {
 }
 
 .theme1 .calc__result {
+  color: white;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   background-color: #d03f2f;
@@ -415,6 +416,7 @@ body {
 }
 
 .theme2 .calc__result {
+  color: white;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   background-color: #ca5502;
@@ -518,6 +520,7 @@ body {
 }
 
 .theme3 .calc__result {
+  color: #1b2428;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
   background-color: #00e0d1;

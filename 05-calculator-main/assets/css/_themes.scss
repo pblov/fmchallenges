@@ -69,6 +69,7 @@
     }
 
     &__result{
+        color: $t1_textWhite;
         transition: all 1s ease-in-out;
         background-color:$t1_keyRedBGToggle;
         border-bottom: 4px solid $t1_keyRedShadow;
@@ -149,6 +150,7 @@
     }
 
     &__result{
+        color: $t1_textWhite;
         transition: all 1s ease-in-out;
         background-color:$t2_keyOrangeBGToggle;
         border-bottom: 4px solid $t2_keyOrangeShadow;
@@ -234,6 +236,7 @@
     }
 
     &__result{
+        color: $t3_textBlue;
         transition: all 1s ease-in-out;
         background-color:$t3_keyCyanBGToggle;
         border-bottom: 4px solid $t3_keyCyanShadow;
