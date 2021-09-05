@@ -36,9 +36,9 @@ export const CountryRest = () => {
                     <Switch>
 
                     
-                        <Route path="/country/:id" exact component={Details} />
+                        <Route path="/country/:id"  component={Details} />
                     
-                        <Route  path="/" exact >
+                        <Route  path="/"  >
                             <SearchFilter/>
                             <Countries/>
                         </Route>
