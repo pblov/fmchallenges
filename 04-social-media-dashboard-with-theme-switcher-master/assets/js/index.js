@@ -11,7 +11,6 @@ let check = document.querySelector('#check'),
     body = document.body;
 
 
-    console.log(secondaryText);
 
 
 check.addEventListener('change', ()=> {

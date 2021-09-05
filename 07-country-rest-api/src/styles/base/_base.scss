@@ -1,0 +1,109 @@
+html{
+    box-sizing: border-box;
+    
+}
+
+*, *:before, *:after{
+    margin:0;
+    padding:0;
+    box-sizing:inherit;
+}
+
+main{
+    background-color: var(--background);
+    min-height: 100vh;
+    
+}
+
+body{
+    background-color: var(--background);
+    font-family: $fontNunito;
+    font-size: $fontDetails;
+    
+}
+
+
+.container,.containerTop{
+    max-width: 1400px;
+    width:70%;
+    margin:0 auto;
+}
+
+.vw{
+    background-color: var(--background);
+    min-height: 120vh;
+}
+
+
+:root{
+    --background: hsl(0, 0%, 98%); // lmBackground
+    --elements: hsl(0, 0%, 100%); // dmlmElements
+    --text: hsl(200, 15%, 8%);
+    --shadow: hsl(0, 0%, 88%); //shadow lmBackground
+
+}
+
+
+
+.load{
+
+    background-color: var(--background);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.noMatch{
+    height: 100vh;
+    color:var(--text);
+}
+
+
+.is-dark-mode {
+    --background: hsl(207, 26%, 17%); 
+    --elements: hsl(209, 23%, 22%); 
+    --text: hsl(0, 0%, 100%);
+    --shadow: hsl(210, 23%, 14%); 
+    --shadowDetails:rgb(24, 24, 24);
+    --hoverBtn: hsl(208, 100%, 8%); 
+    transition: all .2s ease-in-out;
+  }
+  
+  .is-light-mode {
+    --background: hsl(0, 0%, 98%); 
+    --elements: hsl(0, 0%, 100%); 
+    --text: hsl(200, 15%, 8%);
+    --shadow: hsl(0, 0%, 88%); 
+    --shadowDetails:rgb(192, 192, 192);
+    transition: all .2s ease-in-out;
+
+  }
+
+
+
+
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+      --cardGray: #252b43;
+      --baseBackground: #1d2029;
+      --baseColor: white;
+      --gray: #8088ad;
+      --lightGray: #1d2029;
+      --cardTitle: #8088ad;
+      --switchSpinner: #282943;
+      --switch: linear-gradient(to right, #4796d2 0%, #37ce8f 100%);
+    }
+  }
+
+
+
+  
+@media only screen and (max-width: 860px){
+    .containerTop{
+        width:85%;
+    }
+}
