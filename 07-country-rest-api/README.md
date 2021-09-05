@@ -19,15 +19,15 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 
 ### Links
 
-- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/job-listings-with-filtering-react-and-material-ui-TarU1RBtK)
-- Live Site URL: [Live site](https://pblov06-static-job-list.netlify.app)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/rest-countries-api-react-and-sass-JuYAhNQXK)
+- Live Site URL: [Live site](https://pblov07-country-restapi.netlify.app/country)
 
 ## My process
 
 ### Built with
 
 - REACT (REDUX & HOOKS)
-- SCSS
+- SASS
 - HTML
 
 
